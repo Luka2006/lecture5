@@ -1,0 +1,39 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 320px;
+    height: 497px;
+    top: 70px;
+    left: 495px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.box{
+    width: 100px;
+    height: 100px;
+    font-size: 50px;
+}
+
+.firsDiv{
+   width: 288px;
+   height: 286px;
+top: 88px;
+left: 511px;
+}
+.secondDiv{
+    width: 287px;
+height: 500px;
+flex-shrink: 0;
+    
+}
+.ThirdDiv{
+    background-color: yellowgreen;
+}
